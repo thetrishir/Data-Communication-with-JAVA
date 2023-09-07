@@ -247,6 +247,27 @@ public class Sender {
 
 
     void pseudoternary(String s) throws IOException{
+        String pos = "+";
+        String neg = "-";
+        String one = "1";
+        String prevState = "";
+        inputString = "";
+        for(int j = 0 ; j < s.length(); j++) {
+            char h = (char) s.charAt(j);
+            int ch = Integer.parseInt(Character.toString(h));
+            if(ch == 1){
+                inputString = inputString + one;
+            }else{
+                if(prevState == pos){
+                    inputString = inputString + neg;
+                    prevState = neg;
+                }else{
+                    inputString = inputString + pos;
+                    prevState = pos;
+                }
+            }
+        }
+        fww.write(inputString);
     }
 
 
