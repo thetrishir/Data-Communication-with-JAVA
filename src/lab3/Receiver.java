@@ -279,7 +279,32 @@ public class Receiver {
 
 
     void ami() throws IOException{
-
+        char zero = '0';
+        char one = '1';
+        BufferedReader brr = new BufferedReader(frr);
+        int i = 0;
+        inputString = "";
+        while(true){
+            int x = brr.read();
+            i++;
+            if(x == -1){
+                fww.write(inputString);
+                break;
+            }
+            if(i == 1200) {
+                fww.write(inputString);
+                i = 0;
+                inputString = "";
+            }
+            char ch = (char) x;
+            Character.toString(ch);
+            if(ch == '0'){
+                inputString = inputString + zero;
+            }else{
+                inputString = inputString + one;
+            }
+            System.out.println("receiver  "  + inputString);
+        }
     }
 
     void pseudoternary() throws IOException{

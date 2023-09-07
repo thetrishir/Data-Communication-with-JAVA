@@ -220,28 +220,17 @@ public class Sender {
     }
 
     void ami(String s) throws IOException{
+        System.out.println(s);
         String pos = "+";
         String neg = "-";
         String zero = "0";
         String prevState = "";
-        int countZeros = 0;
         inputString = "";
         for(int j = 0 ; j < s.length(); j++) {
             char h = (char) s.charAt(j);
             int ch = Integer.parseInt(Character.toString(h));
             if(ch == 0){
-                countZeros++;
-                if (countZeros == 8){
-                    if(prevState == pos){
-                        inputString = inputString.replace("0000000","000+-0-+");
-                        prevState = pos;
-                    }else{
-                        inputString = inputString.replace("0000000","000-+0+-");
-                        prevState = neg;
-                    }
-                }else{
                     inputString = inputString + zero;
-                }
             }else{
                 if(prevState == pos){
                     inputString = inputString + neg;
@@ -250,16 +239,14 @@ public class Sender {
                     inputString = inputString + pos;
                     prevState = pos;
                 }
-                countZeros = 0;
             }
-//            System.out.println("j "+ j+ " zero "+countZeros +" Ch "+ ch+ "   "+inputString);
         }
+        System.out.println(inputString);
         fww.write(inputString);
     }
 
 
     void pseudoternary(String s) throws IOException{
-
     }
 
 
