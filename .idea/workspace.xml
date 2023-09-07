@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeaeeebc-d008-46c3-9191-371e7004e592" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/labOut.txt" beforeDir="false" afterPath="$PROJECT_DIR$/labOut.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lab3/lab3/Sender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lab3/lab3/Sender.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab3/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab3/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab3/Sender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tempState.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tempState.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tempStateBinary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tempStateBinary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +24,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2T75369DWNrAopsuzYkUstWM7yn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -69,6 +70,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,47 +83,5 @@
       <updated>1690381075820</updated>
     </task>
     <servers />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1481" height="204" key="GridCell.Tab.0.bottom" timestamp="1694072947711">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="204" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1694072947711" />
-    <state width="1481" height="204" key="GridCell.Tab.0.center" timestamp="1694072947711">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="204" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1694072947711" />
-    <state width="1481" height="204" key="GridCell.Tab.0.left" timestamp="1694072947711">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="204" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1694072947711" />
-    <state width="1481" height="204" key="GridCell.Tab.0.right" timestamp="1694072947711">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1481" height="204" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1694072947711" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1690391375278">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1690391375278" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1690391375278">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1690391375278" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1690391375278">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1690391375278" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1690391375278">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1690391375278" />
-    <state x="277" y="60" key="SettingsEditor" timestamp="1694006144596">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="277" y="60" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1694006144596" />
-    <state x="470" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1690381084745">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="470" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1690381084745" />
   </component>
 </project>

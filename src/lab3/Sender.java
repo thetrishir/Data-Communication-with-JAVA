@@ -113,10 +113,10 @@ public class Sender {
             System.out.println("Transmitting through Differential Manchester method");
             diffManchester(outputString);
         }else if(n==6){
-            System.out.println("Transmitting through B8ZS method");
+            System.out.println("Transmitting through AMI method");
             ami(outputString);
         }else if(n==7){
-            System.out.println("Transmitting through B8ZS method");
+            System.out.println("Transmitting through PSEUDOTERNARY method");
             pseudoternary(outputString);
         }else if(n==8){
             System.out.println("Transmitting through B8ZS method");
@@ -220,7 +220,6 @@ public class Sender {
     }
 
     void ami(String s) throws IOException{
-        System.out.println(s);
         String pos = "+";
         String neg = "-";
         String zero = "0";
@@ -241,7 +240,6 @@ public class Sender {
                 }
             }
         }
-        System.out.println(inputString);
         fww.write(inputString);
     }
 
@@ -374,7 +372,6 @@ public class Sender {
             if((j+1) % 4 == 0){
                 if (tempString.equals("0000")){
                     inputString = inputString + "11110";
-//                    System.out.println( "  inputString "+inputString);
                 }else if (tempString.equals("0001")){
                     inputString = inputString + "01001";
                 }else if (tempString.equals("0010")){
@@ -407,6 +404,7 @@ public class Sender {
                     inputString = inputString + "11101";
                 }
                 tempString = "";
+//              System.out.println( "  inputString "+inputString);
             }
         }
         fww.write(inputString);

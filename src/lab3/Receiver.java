@@ -303,7 +303,6 @@ public class Receiver {
             }else{
                 inputString = inputString + one;
             }
-            System.out.println("receiver  "  + inputString);
         }
     }
 
@@ -332,7 +331,6 @@ public class Receiver {
             }else{
                 inputString = inputString + zero;
             }
-            System.out.println("receiver  "  + inputString);
         }
 
     }
@@ -366,7 +364,6 @@ public class Receiver {
             }else{
                 inputString = inputString + one;
             }
-//            System.out.println("receiver i " + i + "  zeros " + countZeros + "  ch " + ch + "    " + inputString);
         }
     }
 
@@ -466,7 +463,7 @@ public class Receiver {
                 i = 0;
                 inputString = "";
             }
-            System.out.println( "  inputString "+inputString);
+//            System.out.println( "  inputString "+inputString);
         }
     }
 }

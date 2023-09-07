@@ -17,7 +17,7 @@ public class Main {
         Sender s = new Sender(transmissionSystem);
         Receiver r = new Receiver(transmissionSystem);
 
-        System.out.println("Trasmission complete");
+        System.out.println("\nTrasmission complete");
         System.out.println(s.count+" Success count "+r.successCount+" and Error count "+r.errorCount);
         System.out.println("SNR: "+ (float) r.successCount/r.errorCount);
         System.out.println( r.successCount);
