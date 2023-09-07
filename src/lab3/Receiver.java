@@ -373,38 +373,39 @@ public class Receiver {
             char ch = (char) x;
             Character.toString(ch);
             tempString = tempString + ch;
+//            System.out.print(tempString + " ");
             if(i % 5 == 0){
-                if (tempString == "11110"){
+                if (tempString.equals("11110")){
                     inputString = inputString + "0000";
-                }else if (tempString == "01001"){
+                }else if (tempString.equals("01001")){
                     inputString = inputString + "0001";
-                }else if (tempString == "10100"){
+                }else if (tempString.equals("10100")){
                     inputString = inputString + "0010";
-                }else if (tempString == "10101"){
+                }else if (tempString.equals("10101")){
                     inputString = inputString + "0011";
-                }else if (tempString == "01010"){
+                }else if (tempString.equals("01010")){
                     inputString = inputString + "0100";
-                }else if (tempString == "01011"){
+                }else if (tempString.equals("01011")){
                     inputString = inputString + "0101";
-                }else if (tempString == "01110"){
+                }else if (tempString.equals("01110")){
                     inputString = inputString + "0110";
-                }else if (tempString == "01111"){
+                }else if (tempString.equals("01111")){
                     inputString = inputString + "0111";
-                }else if (tempString == "10010"){
+                }else if (tempString.equals("10010")){
                     inputString = inputString + "1000";
-                }else if (tempString == "10011"){
+                }else if (tempString.equals("10011")){
                     inputString = inputString + "1001";
-                }else if (tempString == "10110"){
+                }else if (tempString.equals("10110")){
                     inputString = inputString + "1010";
-                }else if (tempString == "10111"){
+                }else if (tempString.equals("10111")){
                     inputString = inputString + "1011";
-                }else if (tempString == "11010"){
+                }else if (tempString.equals("11010")){
                     inputString = inputString + "1100";
-                }else if (tempString == "11011"){
+                }else if (tempString.equals("11011")){
                     inputString = inputString + "1101";
-                }else if (tempString == "11100"){
+                }else if (tempString.equals("11100")){
                     inputString = inputString + "1110";
-                }else if (tempString == "11101"){
+                }else if (tempString.equals("11101")){
                     inputString = inputString + "1111";
                 }
                 tempString = "";
@@ -414,6 +415,7 @@ public class Receiver {
                 i = 0;
                 inputString = "";
             }
+            System.out.println( "  inputString "+inputString);
         }
     }
 }

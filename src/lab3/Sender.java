@@ -401,7 +401,6 @@ public class Sender {
                 tempString = "";
             }
         }
-        System.out.println(inputString);
         fww.write(inputString);
     }
 }
